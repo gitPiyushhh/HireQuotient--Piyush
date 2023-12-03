@@ -1,0 +1,81 @@
+.plans {
+    width: 100vw;
+}
+
+.plans__inner {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.plans__heading-box {
+    margin: 20rem auto 7rem;
+}
+
+.plans__tag-box {
+    width: fit-content;
+    background-color: #F1F2F3;
+    padding: 1rem 2rem;
+    display: flex;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+}
+
+.plans__tag {
+    font-size: 1.6rem;
+    padding: 1rem 4rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+}
+
+.plans__tag--active {
+    background-color: #FEFFFE;
+}
+
+.plans__saving {
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+
+.plans__card {
+    width: 31.5rem;
+    background-color: #fffffff1;
+    padding: 1.4rem 2.8rem;
+    padding-bottom: 3.6rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.plans__card-text {
+    font-size: 1.6rem;
+    margin-top: 0;
+    color: var(--grey-7);
+}
+
+.plans__card-overline {
+    font-size: 1.2rem;
+    color: var(--grey-8);
+    margin-top: 0.8rem;
+}
+
+.plans__card-tagline {
+    font-size: 1.8rem;
+    color: var(--grey-8);
+    margin-top: 2.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.plans__card-list-li {
+    font-size: 1.6rem;
+    color: var(--grey-6);
+    margin-top: 1.6rem;
+}
+
+.plans__trending {
+    background-color: var(--grey-8);
+    padding: 0.6rem 1.2rem;
+    border-radius: 3rem;
+    position: absolute;
+    color: var(--grey-1);
+    top: -3rem;
+    right: 3rem;
+}

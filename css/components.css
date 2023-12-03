@@ -1,0 +1,21 @@
+.btn {
+    padding: 1rem 1.25rem;
+    border-radius: 0.9rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s;
+} 
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn__primary {
+    background-color: var(--grey-1);
+}
+
+.btn__secondary {
+    background-color: var(--grey-9);
+    color: var(--grey-1);
+}

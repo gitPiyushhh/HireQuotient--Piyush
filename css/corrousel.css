@@ -1,0 +1,17 @@
+.corrousel {
+    width: 100vw;
+    background-color: #f8f8f8;
+    margin-top: 2rem;
+}
+
+.corrousel__inner {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.corrousel__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

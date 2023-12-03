@@ -1,0 +1,13 @@
+.cta__text {
+  width: 50%;
+  font-size: 2rem;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  color: var(--grey-6);
+}
+
+.cta__cta {
+  margin-top: 2rem;
+  padding: 2rem 2.6rem !important;
+}

@@ -1,0 +1,52 @@
+:root {
+  --bg-color: #fef9f6;
+  --grey-1: #f1f2f4;
+  --grey-2: #9ba7b0;
+  --grey-3: #a0a6ab;
+  --grey-4: #8d97a0;
+  --grey-5: #74818b;
+  --grey-6: #717b84;
+  --grey-7: #5b646b;
+  --grey-8: #464d53;
+  --grey-9: #393f44;
+  --grey-10: #1c1f21;
+  --accent-color-1: #8fb5e1;
+  --accent-color-2: #a0e187;
+  --accent-color-3: #cba3e6;
+  --accent-color-4: #ffcdc3;
+  --accent-color-5: #f4d8c5;
+  --accent-color-6: #b1e4af;
+  --accent-color-7: #ffb6c1;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.6rem;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.createdBy {
+  position: fixed;
+  bottom: 4rem;
+  right: 3rem;
+  background-color: #fffffe;
+  padding: 1.6rem 3rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var(--grey-10);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.createdBy:hover {
+  transform: scale(1.1);
+}

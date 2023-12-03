@@ -1,0 +1,60 @@
+.faq {
+  width: 100vw;
+}
+
+.faq__inner {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.faq__card {
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--grey-1);
+  padding: 2rem 3.2rem;
+  border-radius: 1rem;
+  position: relative;
+  transition: all 0.3s;
+  margin-bottom: 2.8rem;
+  cursor: pointer;
+}
+
+.faq__card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--grey-10);
+}
+
+.faq__card-text {
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--grey-6);
+  transition: all 0.3s;
+}
+
+.faq__icon-container {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: var(--grey-2);
+  cursor: pointer;
+}
+
+.faq__icon {
+  font-size: 3rem;
+  border-radius: 50%;
+  margin-top: -8px;
+  margin-bottom: 0;
+}
+
+.faq__card-text-transition {
+  transition: max-height 0.5s ease-out;
+}
